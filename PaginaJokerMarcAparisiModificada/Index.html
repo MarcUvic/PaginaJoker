@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+</head>
+
+<body>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Audio Menu</button>
+        <div id="myDropdown" class="dropdown-content">
+            <button class="trailer" id="play-video" onclick="document.getElementById('lostmojo').pause()"> PAUSE</button>
+            <button class="trailer2" id="play-video2" onclick="document.getElementById('lostmojo').play()"> PLAY</button>
+        </div>
+      </div>    
+        <audio id="lostmojo" autoplay="autoplay">
+                <source src="Assets/The Guess Who - Laughing Joker OST.mp3" type="audio/mp3">
+            </audio>
+            
+            <button onclick="GoToTop()" id="myBtn" title="Go to top">Go To Top</button>
+         
+        
+        
+<div class="layer">
+    <header>  
+          
+        <img onclick="GoToTop()" src= "Assets/1402a2229ee6583836556db76c5daaa9.png" id= "Logo" >
+        <ul class="navbar">
+                <li><a onclick ="ScrollTo(this)" id="home"> HOME </a></li>
+                <li><a onclick ="ScrollTo(this)" id="actors"> ACTORS </a></li>
+                <li><a onclick ="ScrollTo(this)" id="gamescomics"> COMICS AND OTHERS </a></li>
+                <li><a onclick ="ScrollTo(this)" id="media"> MEDIA  </a></li>
+        </ul>
+    </header>
+    <div id="wrapper">
+        <div id="LC">
+            <h1>T</h1> 
+            <h1>H</h1> 
+            <h1>E</h1> 
+            <h1>J</h1> 
+            <h1>O</h1> 
+            <h1>K</h1> 
+            <h1>E</h1> 
+            <h1>R</h1> 
+            </div>
+    </div>    
+    <div class="container">
+            <!-- Presentation -->    
+            <div class="home">
+                <h1> HOME </h1>
+                <p>The Joker is a homicidal maniac and the archenemy of Batman. His real name and origin are unknown, but one of the most common versions indicates that he fell into a vat of chemicals which turned his skin white and his hair green. Completely unpredictable with no regard for human life, the Joker finds murder and mayhem funny, and is perhaps the most dangerous man on Earth with a body count stretching into the thousands, all centered around his obsession with the Batman.  </p>
+                <div class="row">
+                    <img src="Assets/fotonoticia_20191004184522_640.jpg">
+                    <img src="Assets/PU7LPSYFV5DPHJHIZ6HZGRHJAQ.jpg">
+                    <img src="Assets/jbareham_191003_0958_joker_comics.0.webp">
+                </div>
+            </div>  
+    
+            <!-- Information -->
+            <div class="Actors">
+                <h1> Famous Actors </h1>
+                <div class="row">
+                    <img class="actor1" src="Assets/jared_leto_joker_tuxedo.jpg">
+                    <p> Jared Leto : Jared Leto's Joker is one that is as much a departure from Ledger as Ledger was from Nicholson. Every bit resistant to the “classic” iconography of the Clown Prince of Crime as Nolan’s take—perhaps even more so despite having bleached skin—director David Ayer and Leto created a virile Joker who is excessively fabulous and obsessed with embracing “thug life” stereotypes. </p>
+                </div>
+                <div class="row">
+                    <img class="actor2" src="Assets/jack_nicholson_joker.png">
+                    <p> Jack Nicholson : Jack Nicholson was famously tapped for the Joker in Tim Burton’s dark reimagining of the Batman mythos. For its time, Batman was an ambitious blockbuster spectacle, and even today has a unique individual identity thanks to its director, making it an aberration in its then-nascent genre. Presumably, casting everyone’s favorite choice for the role went a long way to giving Burton some latitude.</p>
+                </div>
+                <div class="row">
+                    <img class="actor3" src="Assets/heath_ledger_joker_fire.jpg">
+                    <p> Heath Ledger :  no matter how much stock you put in comic book fidelity, there is little debate that Heath Ledger’s take on the Joker in 2008’s The Dark Knight transcends its genre. As much as any other legendary turn of villainy in cinema, Ledger’s take on the clown is immortal and still lingers in the culture to this day.                 </p>
+                </div>
+                <div class="row">
+                    <img class="actor4" src="Assets/joker_movie_joaquin_phoenix.png">
+                    <p> Joaquin Phoenix : As the only Joker to get a whole movie to himself, no Batmans or Suicide Squads required, Phoenix stars in a deconstructionist piece set in the early 1980s instead of 2019. Returning to the amateurish appearance of self-applied make-up used by Ledger, there is something even more insidious in Phoenix's countenance that just as much resembles serial killer John Wayne Gacy as it does the comic book character.</p>
+                </div>
+                
+            </div>
+            <div class="gamescomics">
+                <h1> MAY INTEREST YOU </h1>
+                <img class="img1" src="Assets/cine-049186.jpg">
+                <img class="img2" src="Assets/PORTADA_JPG_WEB_joker_quien_se_rie_el_ultimo_2.jpg">
+                <img class="img3" src="Assets/f4d4eff646e56a7fea892c3ba2a3875a.jpg">
+                <div class="row">
+                    <button class="bt1" ><span>LINK </span></button>
+                    <button class="bt2" ><span>LINK </span></button>
+                    <button class="bt3" ><span>LINK </span></button>
+                </div>
+            </div>
+            <!-- Image gallery -->
+            <div class="media">
+                <h1> MEDIA </h1>
+                <div class="slideshow-container">
+
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">1 / 3</div>
+                      <img src="Assets/FONDO.png" style="width:100%">
+                      <div class="text">Batman Vs Joker</div>
+                    </div>
+                  
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 3</div>
+                      <img src="Assets/61c54e79e0dd198970cbcebe0970a3f2.jpg" style="width:100%">
+                      <div class="text">FanMade drawing of The Joker</div>
+                    </div>
+                  
+                    <div class="mySlides fade">
+                      <div class="numbertext">3 / 3</div>
+                      <img src="Assets/maxresdefault.jpg" style="width:100%">
+                      <div class="text">Joker in Gotham's Prison</div>
+                    </div>
+                  
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                  <br>
+                  
+                  <!-- The dots/circles -->
+                  <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                  </div>
+                     
+            </div>
+                        
+            </div>
+        </div>
+        
+        
+        <!-- Footer -->
+        <footer>
+            <p>@MARC APARISI RULL: marc.aparisi@uvic.cat </p>
+        </footer>
+        
+        <script src="globalJS.js"></script>
+
+</body>
+
+</html>
